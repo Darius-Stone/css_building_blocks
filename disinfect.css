@@ -196,6 +196,8 @@ iframe {
 
 img {
   border-style: none;
+  max-width: 100%;
+  height: auto;
 }
 
 svg:not([fill]) {
@@ -208,6 +210,8 @@ svg:not(:root) {
 
 table {
   border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
 }
 
 button,
