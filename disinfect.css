@@ -32,7 +32,7 @@ body,
 html {
   width: 100%;
   height: 100%;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 html {
@@ -100,6 +100,9 @@ hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
 }
 
 nav ol,
@@ -109,6 +112,7 @@ nav ul {
 }
 
 a {
+  color: inherit;
   background-color: transparent;
 }
 
