@@ -28,10 +28,10 @@
   }
   
   .ds-animate-opacity {
-    animation: opac 0.8s;
+    animation: opacity 0.8s;
   }
   
-  @keyframes opac {
+  @keyframes opacity {
     from {
       opacity: 0;
     }
@@ -42,10 +42,10 @@
   
   .ds-animate-top {
     position: relative;
-    animation: animatetop 0.4s;
+    animation: animate-top 0.4s;
   }
   
-  @keyframes animatetop {
+  @keyframes animate-top {
     from {
       top: -300px;
       opacity: 0;
@@ -58,10 +58,10 @@
   
   .ds-animate-left {
     position: relative;
-    animation: animateleft 0.4s;
+    animation: animate-left 0.4s;
   }
   
-  @keyframes animateleft {
+  @keyframes animate-left {
     from {
       left: -300px;
       opacity: 0;
@@ -74,10 +74,10 @@
   
   .ds-animate-right {
     position: relative;
-    animation: animateright 0.4s;
+    animation: animate-right 0.4s;
   }
   
-  @keyframes animateright {
+  @keyframes animate-right {
     from {
       right: -300px;
       opacity: 0;
@@ -90,10 +90,10 @@
   
   .ds-animate-bottom {
     position: relative;
-    animation: animatebottom 0.4s;
+    animation: animate-bottom 0.4s;
   }
   
-  @keyframes animatebottom {
+  @keyframes animate-bottom {
     from {
       bottom: -300px;
       opacity: 0;
@@ -105,10 +105,10 @@
   }
   
   .ds-animate-zoom {
-    animation: animatezoom 0.6s;
+    animation: animate-zoom 0.6s;
   }
   
-  @keyframes animatezoom {
+  @keyframes animate-zoom {
     from {
       transform: scale(0);
     }
