@@ -39,6 +39,24 @@ h1 {
   margin: 0.67em 0;
 }
 
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section {
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
 dl dl,
 dl ol,
 dl ul,
@@ -60,23 +78,19 @@ hr {
   overflow: visible;
 }
 
-main {
-  display: block;
-}
-
 nav ol,
 nav ul {
   list-style: none;
   padding: 0;
 }
 
-pre {
-  font-family: monospace, monospace;
-  font-size: 1em;
-}
-
 a {
   background-color: transparent;
+}
+
+a:active,
+a:hover {
+  outline-width: 0;
 }
 
 abbr[title] {
@@ -90,8 +104,18 @@ strong {
   font-weight: bolder;
 }
 
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
 code,
 kbd,
+pre,
 samp {
   font-family: monospace, monospace;
   font-size: 1em;
@@ -127,6 +151,8 @@ video {
 }
 
 audio,
+canvas,
+progress,
 video {
   display: inline-block;
 }
@@ -211,7 +237,6 @@ legend {
 }
 
 progress {
-  display: inline-block;
   vertical-align: baseline;
 }
 
@@ -264,23 +289,11 @@ textarea {
   box-shadow: none;
 }
 
-details {
-  display: block;
-}
-
 summary {
   display: list-item;
 }
 
-canvas {
-  display: inline-block;
-}
-
-template {
-  display: none;
-}
-
-[hidden] {
+[hidden], template {
   display: none;
 }
 
