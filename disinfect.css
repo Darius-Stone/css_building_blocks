@@ -193,6 +193,10 @@ textarea {
   margin: 0;
 }
 
+optgroup {
+  font-weight: bold;
+}
+
 button,
 input,
 select {
@@ -223,12 +227,12 @@ button:-moz-focusring,
 }
 
 fieldset {
-  border: 1px solid #a0a0a0;
-  padding: 0.35em 0.75em 0.625em;
+  border: 1px solid #abcdef;
+  margin: 0 2px;
+  padding: 0.35em 0.75em 0.75em;
 }
 
 legend {
-  box-sizing: border-box;
   color: inherit;
   display: table;
   max-width: 100%;
@@ -248,7 +252,6 @@ textarea {
 
 [type="checkbox"],
 [type="radio"] {
-  box-sizing: border-box;
   padding: 0;
 }
 
@@ -293,7 +296,8 @@ summary {
   display: list-item;
 }
 
-[hidden], template {
+[hidden],
+template {
   display: none;
 }
 
